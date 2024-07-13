@@ -1,0 +1,215 @@
+/// if you want make custome helper make laravel,  then we can easy way, go app folder create file custom-helper.php then then locate direcotry our project locte composer.json then 
+/// command hit composer auto-dump 
+/// here is self logic use all bussiness logic
+<?php
+// $find  = 'qwaAsas';
+// $length = strlen($find);
+// echo $length; exit;
+
+
+
+
+function length($length){
+ return strlen($length);
+}
+
+
+function remove_space($str){
+	$remove_space = trim($str);
+	return $remove_space;
+}
+
+
+function lower($str){
+ $stringlower = strtolower($str);
+return $stringlower; 
+}
+
+function upper($str){
+   $stringupper = strtoupper($str);
+   return $stringupper;
+}
+
+function addcslashes($str,$arg){
+
+  $strAddslashes  =	addcslashes($str,$arg);
+  return $strAddslashes;
+}
+
+// push data ley abd value pair
+$item =5;
+$size = array();
+$point = 0;
+
+function push($data){
+	if($point >= $item){
+
+         echo "stack is overflow";
+	}else{
+		$size[$this->point] = $data;
+	}
+
+}
+
+
+
+function array_reverses($array_associative){
+ 
+  $reverse = array_reverse($array_associative);
+  return $reverse;
+}
+
+//ASCII TABLE
+
+// uniqid 
+function uniqgenrate_refresh()
+{
+        $data =    uniqid('clever-');
+        return $data;
+}
+
+function diffrent(array $a, $b){
+// means not math 
+$result = array_diff($a, $b);
+return $result;
+}
+
+function urlencodes($user_query, $str){
+	$string = $str.urlencode($user_query);
+	return $string;
+}
+
+// first follow initialization then your statement put 
+
+function whileloopdata($initialization, $value, $condition = ''){
+  $initialization;
+  while($value as $data){
+        echo $data->name;
+          $initialization++;
+  }
+}
+
+
+function whilestatement($initialization, $value){
+  $initialization;
+  while($a <= 10){
+    echo "Yahoo Baba";
+    $initialization++;
+  }
+
+}
+
+function dowhileloopdata($initialization, $condition){
+  $initialization;
+  do{
+    echo "Suraj Mishra";
+  }while($a <= $condition)
+
+}
+
+
+function forloopdata($initialization, $condition, $data = ''){ 
+  for($a = 1; $a <= 10; $a++){
+    echo "Suraj mishra";
+  }
+}
+
+// if we show data tabular form then work means matrix 
+
+function innerouterfor($initialization, $condition, $data = '')
+{
+  for($a = 1; $a<=100; $a = $a+10){
+    for($b = $a; $b < $a+10; $b++ ){
+      echo $b."";
+
+    }
+    echo "<br";
+  }
+
+}
+
+// Array data for loop 
+$colors = ["read",20,"blue"12.50];
+function arrayforloop($initialization, $condition){
+for($i = 0; $i<4; $i++){
+  echo $colors[$i]."<br>"
+}
+}
+
+
+function foreachdata(){
+
+}
+
+
+
+
+
+
+function terneryoperater(){
+
+}
+
+
+
+$data = array('list'=>1,'add'=>1, 'upadate'=>1, 'delete'=>1);
+
+
+if($session['list']  == '1'){
+            // <h1> list</h1>
+     if($session['add'] == '1'){
+     	// <h1> add</h1>
+     }
+   
+    if($session['delete'] == '1'){
+     	// <h1> delete</h1>
+     }
+      if($session['update'] == '1'){
+     	// <h1> add</h1>
+     }
+
+
+}
+
+function switchexpression($weeekday)
+{
+case 1:
+echo "Today is Monday";
+break;
+case 2: 
+echo "Today is Tuesday";
+break;
+case 3:
+echo "Today is Wednsday";
+break;
+case 4:
+echo "Toady is Thusrday";
+break;
+case 5:
+echo "Today is Friday";
+break
+case 6:
+echo "Today is Staturday";
+break;
+case 7:
+echo "Today is Sunday";
+brek;
+default
+echo "Enter the valid Weekday";
+break;
+}
+switchexpression(1);
+
+
+
+         
+
+
+// 
+// one command how to make  controller model migrate
+// orm 
+// quer builder
+// dashboaed deploye  github
+// search
+
+?>
