@@ -1,7 +1,8 @@
 
 // Ajax Handling multiple Action post  get fetch Url Api 
 
-
+https://youtu.be/tI_IkCzVgRk?si=lXTj3TBn4ecinCcj
+csrf token handel ajax vedios
 // if you want json data on php 
 
 /////////////////////////////////////  AJAX  ////////////////////////
